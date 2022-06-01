@@ -6,12 +6,15 @@ body {
 }
 h1 {
     text-align:center;
+    font-size: 175%;
 }
 div {
     border: black solid;
     padding-left: 20px;
     background-color: #999999;
     width: 30%;
+    max-height: 175px;
+    overflow:hidden;
     float:left;
     margin: 1.5%;
 }
@@ -22,9 +25,10 @@ h3 {
     border-top: 0px;
     border-right:0px;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
     margin: 0;
+    font-size: 125%;
     
 }
 
@@ -40,4 +44,11 @@ h3 {
 }
 p {
     font-weight: 800;
+    float: right;
+    overflow: hidden;
+}
+@media (min-width: 992px) {
+    body {
+        color: red;
+    }
 }
