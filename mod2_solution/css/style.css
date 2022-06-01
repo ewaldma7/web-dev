@@ -47,7 +47,17 @@ p {
     float: right;
     overflow: hidden;
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) {                             /*desktop*/
+    body {
+        color: red;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {      /*tablet*/
+    body {
+        color: black;
+    }
+}
+@media (max-width: 767px) {                             /*mobile*/
     body {
         color: red;
     }
