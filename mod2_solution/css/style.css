@@ -1,5 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
 }
 h1 {
     text-align:center;
@@ -7,10 +8,13 @@ h1 {
 h3 {
     border: black solid;
     text-align: right;
+    margin: 0;
 }
 div {
     border: black solid;
     background-color: #999999;
+    width: 33%;
+    float:left;
 }
 #chicken h3 {
     background-color: #d59898;
