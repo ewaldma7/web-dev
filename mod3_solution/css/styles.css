@@ -15,4 +15,9 @@ body {
 
 #chicken, #beef, #sushi {
     background-color: #999999;
+    padding: 0px 20px 0px 20px;
+}
+#food {
+    color: black;
+    font-size: 1em;
 }
